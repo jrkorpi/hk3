@@ -17,6 +17,7 @@
       color: #00ff00;           
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       display: flex;
+      flex-direction: column; 
       justify-content: center;
       align-items: center;
       min-height: 100vh;
@@ -37,6 +38,8 @@
 
     .content-box {
       max-width: 90%;
+      margin: auto; 
+      padding-top: 20px; 
     }
 
     .message-text {
@@ -51,10 +54,7 @@
     }
     
     .bottom-text {
-      position: absolute;
-      bottom: 15px;
-      left: 0;
-      right: 0;
+      padding: 20px 0 15px 0; /* Keeps space above and below the text */
       font-size: 1rem;
     }
   </style>
